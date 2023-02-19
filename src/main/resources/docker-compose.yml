@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  employee-ms:
+    image: aqilzeka/employees:0.0.1.RELEASE
+    mem_limit: 700m
+    ports:
+      - "8080:8080"
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 30s
+        max_attempts: 3
+        window: 120s
