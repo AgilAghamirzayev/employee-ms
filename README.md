@@ -40,4 +40,4 @@
 ### ✅ Run: `kubectl expose deployment employees --type=LoadBalancer --port=8080`
 
 ---
-# 🎉🎊🎇 Congratulations, your application open the world right now !!! 
+# 🎉🎊🎇 Congratulations!!! Your application open the world right now.
